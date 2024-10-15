@@ -1,15 +1,83 @@
+body {
+    margin: 0;
+    background-color: #262626;
+}
+
+main {
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #262626;
+    color: white;
+    padding-left:50px;
+    border-bottom-style: inset;
+    border-color: black;
+    border-width: medium;
     }
 
 header div  {
     display: flex;
     flex: 1;
-    justify-content: 
+    margin-right: 50px;
+    justify-content: end;
 }
     
 .header-links {
+    font-size: 115%;
+}
 
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+.about-me, .projects, .skills, .contact {
+    margin-left: 25px;
+}
+
+.projects ul {
+    list-style-type: disc;
+}
+
+.skills ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 15px;
+}
+
+.skills ul li {
+    margin-right: 10px;
+}
+
+.contact {
+    padding-bottom: 25px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    margin: 0;
+    color: white;
 }
